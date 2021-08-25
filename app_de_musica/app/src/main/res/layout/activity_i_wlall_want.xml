@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".I_wlall_want">
+
+    //…..____________________ , ,__
+    //……/ `—___________—-_____|] – – – – – – – – ░ ▒▓▓█D
+    //…../_==o;;;;;;;;_______.:/
+    //…..), —.(_(__) /
+    //….// (..) ), —-“
+    //…//___//
+    //..//___//
+    //.//___//
+
+    <TextView
+        android:id="@+id/textView2319"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/backgroud_radient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView279"
+        android:layout_width="342dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="72dp"
+        android:background="#80000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView241"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
+
+
+    <TextView
+        android:id="@+id/textView2419"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="#25FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2319"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2319"
+        app:layout_constraintTop_toBottomOf="@+id/textView279"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2219"
+        android:layout_width="233dp"
+        android:layout_height="235dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/animeemage"
+        app:layout_constraintBottom_toBottomOf="@+id/textView279"
+        app:layout_constraintEnd_toEndOf="@+id/textView279"
+        app:layout_constraintStart_toStartOf="@+id/textView279"
+        app:layout_constraintTop_toTopOf="@+id/textView279"
+        app:layout_constraintVertical_bias="0.505" />
+
+
+    <Button
+        android:id="@+id/pauseBtn119"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pausa"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2419"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419"
+        app:layout_constraintStart_toStartOf="@+id/textView2419"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119" />
+
+    <Button
+        android:id="@+id/playBtn119"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+
+        android:background="@drawable/toque"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2419"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419"
+        app:layout_constraintStart_toStartOf="@+id/textView2419"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119" />
+
+    //it will stay like this
+
+    <Button
+        android:id="@+id/stopBtn119"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_play"
+        android:enabled="false"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2419"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419" />
+
+    <SeekBar
+        android:id="@+id/seek_bar119"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_pass"
+
+        android:layout_marginTop="20dp"
+        android:saveEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419"
+        app:layout_constraintStart_toStartOf="@+id/textView2419"
+        app:layout_constraintTop_toTopOf="@+id/textView2419" />
+
+    <TextView
+        android:id="@+id/tv_pass119"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119" />
+
+    <TextView
+        android:id="@+id/tv_due119"
+        android:layout_width="72dp"
+        android:layout_height="19dp"
+        app:layout_constraintStart_toStartOf="@+id/textView2419"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119" />
+
+    <TextView
+        android:id="@+id/peoximo319"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:background="@drawable/proximo"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2419"
+        app:layout_constraintEnd_toEndOf="@+id/textView2419"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/pauseBtn119"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <TextView
+        android:id="@+id/anterior319"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:background="@drawable/anterior"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2419"
+        app:layout_constraintEnd_toStartOf="@+id/pauseBtn119"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="@+id/textView2419"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar119"
+        app:layout_constraintVertical_bias="0.506" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

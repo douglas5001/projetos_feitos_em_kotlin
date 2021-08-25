@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+
+    <string name="play">Entrar</string>
+    <string name="bemvindo">Seja bem vindo</string>
+    <string name="next">Continuar</string>
+    <string name="ok">ok</string>
+    <string name="quiz">Quiz</string>
+
+
+    <string name="mesesQuestão">Quantos meses tem 28 dias durante um período de 6 anos?</string>
+    <string name="mesesOpcao1">a) 1</string>
+    <string name="mesesOpcao2">B) 12</string>
+    <string name="mesesOpcao3">C) 2</string>
+    <string name="mesesOpcao4">d) nenhuma</string>
+
+    <string name="horasQuestao">Você levantou às 8h para ir trabalhar; foi dormir às 7h. Quantas horas você dormiu?</string>
+    <string name="horasOpcao1">A) 1 Hora</string>
+    <string name="horasOpcao2">B) 12 Horas</string>
+    <string name="horaspcao3">C) 1 Hora</string>
+    <string name="horasOpcao4">D) 8 Hora</string>
+
+    <string name="questao1">Você entra em um castelo escuro com uma caixa de fósforos que contém apenas um palito. Não há eletricidade, porém há uma vela, um lampião a gás e uma lamparina a querosene. O que você acende primeiro?</string>
+    <string name="casteloOpcao1">A) A vela</string>
+    <string name="casteloOpcao2">B) Um lampião</string>
+    <string name="casteloOpcao3">c) O fosforo</string>
+    <string name="casteloOpcao4">d) O seu aquecedor</string>
+    <string name="casteloCorrecao">c) O fosforo</string>
+
+
+    <string name="animaisarcaQuestão">Quantos animais de cada espécie, Moisés colocou em sua arca?</string>
+    <string name="animaisarcaOpcao1">a) 1</string>
+    <string name="animaisarcaOpcao2">b) 2</string>
+    <string name="animaisarcaOpcao3">C) 0</string>
+    <string name="animaisarcaOpcao4">d) 3</string>
+    <string name="animaisCorrecao">C) </string>
+
+    <string name="jogarnovamente">Jogar novamente</string>
+
+    <string name="great">Tu á pécimo em!</string>
+    <string name="maisoumeno">da pra melhorar isso ai!!</string>
+    <string name="verygood">Muito bem, até que você é bonzinho.</string>
+
+    <string name="acertou">Acertou Miseravi</string>
+    <string name="errou">Errou Miseravi</string>
+
+</resources>

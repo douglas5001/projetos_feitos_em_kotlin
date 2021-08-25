@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="play">Play</string>
+    <string name="bemvindo">Be super welcome!!</string>
+    <string name="next">Next</string>
+    <string name="ok">ok</string>
+    <string name="quiz">Quiz</string>
+
+
+    <string name="questao1">You enter a dark castle with a matchbox that contains only a toothpick. There is no electricity, but there is a candle, a gas lamp and a kerosene lamp. What do you light first?</string>
+    <string name="casteloOpcao1">A) A vela</string>
+    <string name="casteloOpcao2">B) Um lampião</string>
+    <string name="casteloOpcao3">c) O fosforo</string>
+    <string name="casteloOpcao4">d) O seu aquecedor</string>
+    <string name="casteloCorrecao">c) O fosforo</string>
+
+
+    <string name="animaisarcaQuestão">How many animals of each species did Moses put in his ark?</string>
+    <string name="animaisarcaOpcao1">a) 1</string>
+    <string name="animaisarcaOpcao2">b) 2</string>
+    <string name="animaisarcaOpcao3">C) 0</string>
+    <string name="animaisarcaOpcao4">d) 3</string>
+    <string name="animaisCorrecao">C) </string>
+
+
+    <string name="mesesQuestão">How many months are there 28 days over a 6 year period?</string>
+    <string name="mesesOpcao1">a) 1</string>
+    <string name="mesesOpcao2">B) 12</string>
+    <string name="mesesOpcao3">C) 2</string>
+    <string name="mesesOpcao4">d) None</string>
+
+    <string name="horasQuestao">You got up at 8 am to go to work; went to sleep at 7am. How many hours did you sleep?</string>
+    <string name="horasOpcao1">A) 1 Hours</string>
+    <string name="horasOpcao2">B) 12 Hours</string>
+    <string name="horaspcao3">C) 1 Hours</string>
+    <string name="horasOpcao4">D) 8 Hours</string>
+
+    <string name="jogarnovamente">Play again</string>
+
+
+    <string name="great">Great!!</string>
+    <string name="maisoumeno">you better improve it there kk</string>
+    <string name="verygood">Very good</string>
+
+    <string name="acertou">Miseravi missed</string>
+    <string name="errou">Miseravi missed</string>
+
+
+
+
+
+
+</resources>

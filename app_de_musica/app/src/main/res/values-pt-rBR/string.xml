@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="musicas">Musicas</string>
+    <string name="favoritos">Favoritos</string>
+
+    <string name="want"> 1- All I Want</string>
+    <string name="takeonme"> 2- Take On Me</string>
+    <string name="never"> 3- Never By Alone</string>
+    <string name="pompei"> 4- Pompei</string>
+    <string name="swater_weather"> 5- Sweater Weather</string>
+    <string name="nulo">+</string>
+    <string name="enter">Enter</string>
+    <string name="ok">Ok</string>
+    <string name="erro">Inválido</string>
+    <string name="usersenha">Usuário ou senha inválidos</string>
+
+    <string name="passaword">Insira sua senha</string>
+    <string name="insert_user">Insira seu usuário</string>
+    <string name="cadastro">make your registration</string>
+
+
+
+</resources>

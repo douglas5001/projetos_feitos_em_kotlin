@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pompei">
+
+
+    <TextView
+        android:id="@+id/textView231"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/imagepompei2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="342dp"
+        android:layout_height="324dp"
+        android:background="#80000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView241"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <TextView
+        android:id="@+id/textView241"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#25FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView221"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView221"
+        android:layout_width="233dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/imagepompei"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="@+id/textView231" />
+
+
+    <Button
+        android:id="@+id/pauseBtn1"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/pausa"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="@+id/textView241"
+        app:layout_constraintEnd_toEndOf="@+id/textView241"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView241"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <Button
+        android:id="@+id/playBtn1"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+
+        android:background="@drawable/toque"
+        app:layout_constraintBottom_toBottomOf="@+id/textView241"
+        app:layout_constraintEnd_toEndOf="@+id/textView241"
+        app:layout_constraintStart_toStartOf="@+id/textView241"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1" />
+
+    <Button
+        android:id="@+id/stopBtn1"
+        android:layout_width="56dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_play"
+        android:enabled="false"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="@+id/textView241"
+        app:layout_constraintEnd_toEndOf="@+id/textView241" />
+
+
+    <SeekBar
+        android:id="@+id/seek_bar1"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_pass"
+
+        android:layout_marginTop="20dp"
+        android:saveEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/textView241"
+        app:layout_constraintStart_toStartOf="@+id/textView241"
+        app:layout_constraintTop_toTopOf="@+id/textView241" />
+
+    <TextView
+        android:id="@+id/tv_pass1"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView241"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1" />
+
+    <TextView
+        android:id="@+id/tv_due1"
+        android:layout_width="72dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="@+id/textView241"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1" />
+
+    <TextView
+        android:id="@+id/peoximo3"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/proximo"
+        app:layout_constraintBottom_toBottomOf="@+id/textView241"
+        app:layout_constraintStart_toEndOf="@+id/pauseBtn1"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1" />
+
+    <TextView
+        android:id="@+id/anterior3"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/anterior"
+        app:layout_constraintBottom_toBottomOf="@+id/textView241"
+        app:layout_constraintEnd_toStartOf="@+id/pauseBtn1"
+        app:layout_constraintTop_toBottomOf="@+id/seek_bar1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
